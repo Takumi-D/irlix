@@ -1,0 +1,211 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+html{
+    height: 100%;
+}
+
+body {
+    line-height: 1;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.container {
+    display: flex;
+    padding: 0 15px;
+    flex: 1 0 auto;
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+body {
+    font-family: "Late";
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*<----------- Шапка ----------->*/
+
+.header{
+    background-color: #090808;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto;
+}
+
+.logo__indent{
+    margin-left: 32px;
+}
+
+/*<----------- Тело ----------->*/
+
+
+
+/*<----------- Левая чать тела ----------->*/
+
+.text-content{
+    flex: 1 0 auto;
+}
+
+.greetings__indent{
+    margin: 80px 0 0 0;
+}
+
+.greetings__header{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    color: #000000;
+}
+
+.greetings__paragraph{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.list__indent{
+    margin: 58px 0 0 0
+}
+
+.list__header{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.list__item-container{
+    display: flex;
+}
+
+.list__item{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.list__item_number{
+margin-right: 10px;
+}
+
+/*<----------- Правая чать тела ----------->*/
+
+.content-form{
+    flex: 1 0 auto;
+}
+
+.form{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 400px;
+    height: 278px;
+    border: 1px solid #000000;
+    padding: 16px 0 0 0;
+}
+
+.form__indent{
+    margin-top: 160px;
+}
+
+.form__block-input-text{
+    margin-top: 16px;
+}
+
+.block-input-text__text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.block-input-text__input{
+    box-sizing: border-box;
+    width: 368px;
+    height: 48px;
+    border: 1px solid #000000;
+    outline: none;
+}
+
+.form-button{
+    width: 368px;
+    height: 48px;
+    background: #000000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.form__button{
+    margin-top: 16px;
+}
+
+/*<----------- Подвал ----------->*/
+
+.footer{
+    display: flex;
+    align-items: center;
+    background-color: #737373;
+    height: 160px;
+    width: 100%;
+    flex: 0 0 auto;
+    margin-top: 100px;
+}
